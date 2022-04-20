@@ -1,0 +1,19 @@
+{
+  "name": "l01",
+  "version": "1.0.0",
+  "description": "cse341 lesson 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wmsmckay/cse341-lesson01.git"
+  },
+  "author": "McKay Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wmsmckay/cse341-lesson01/issues"
+  },
+  "homepage": "https://github.com/Wmsmckay/cse341-lesson01#readme"
+}
