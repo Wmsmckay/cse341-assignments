@@ -1,10 +1,11 @@
-const http = require('http')
+const express = require('express')
+const app = express()
+const port = process.env.PORT || 3000;
 
-const server = http.createServer((req, res) => {
-    res.end('Gabe Itches')
+app.get('/', (req, res) => {
+    res.send('Gabe Itches')
+  })
+
+app.listen(port, () => {
+    console.log(`App running on port: ${port}`)
 })
-
-server.listen(3030, '127.0.0.1',() => {
-    console.log('Server is listening on port 3030')
-})
-

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Wmsmckay/cse341-assignments/issues"
   },
-  "homepage": "https://github.com/Wmsmckay/cse341-assignments#readme"
+  "homepage": "https://github.com/Wmsmckay/cse341-assignments#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
