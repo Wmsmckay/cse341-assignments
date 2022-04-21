@@ -1,0 +1,19 @@
+// LOCALHOST 
+###
+GET http://localhost:8080/contacts 
+###
+GET http://localhost:8080/contacts/6261d01a06c3187999c45569
+###
+GET http://localhost:8080/contacts/6261d04406c3187999c4556a 
+###
+GET http://localhost:8080/contacts/6261d04e06c3187999c4556b
+
+// PRODUCTION Deploy 
+###
+GET https://cse341api.herokuapp.com/contacts 
+###
+GET https://cse341api.herokuapp.com/contacts/622023f642f9ab4cd6e060b2 
+###
+GET https://cse341api.herokuapp.com/contacts/6261d04406c3187999c4556a 
+###
+GET https://cse341api.herokuapp.com/contacts/6261d04e06c3187999c4556b
