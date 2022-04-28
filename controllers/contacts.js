@@ -36,12 +36,6 @@ const createContact = async (req, res) => {
     .db()
     .collection('contacts-collection')
     .insertOne(newContact);
-    // .insertOne(req.body, (error, result) => {
-    //   if(error) {
-    //     return res.status(500).send(error);
-    //   }
-    //   res.send(result.result);
-    // });
     if (response.acknowledged) {
       res.status(201).json(response);
     } else {
