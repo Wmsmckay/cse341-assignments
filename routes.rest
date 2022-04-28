@@ -1,19 +1,73 @@
 // LOCALHOST 
-###
+### GET local
 GET http://localhost:8080/contacts 
-###
-GET http://localhost:8080/contacts/6261d01a06c3187999c45569
-###
-GET http://localhost:8080/contacts/6261d04406c3187999c4556a 
-###
-GET http://localhost:8080/contacts/6261d04e06c3187999c4556b
+
+### POST local
+POST http://localhost:8080/contacts HTTP/1.1 
+
+Content-Type: application/json
+{
+    "firstName":"Jon", 
+    "lastName":"smith 2.0", 
+    "email":"Jsmith@test.com", 
+    "favoriteColor":"Brown", 
+    "birthday":"Jan 18"
+}
+
+### GET one local
+GET http://localhost:8080/contacts/626a161e75ffccc7ee7f6c37
+
+### PUT local
+PUT http://localhost:8080/contacts/626a161e75ffccc7ee7f6c37
+Content-Type: application/json
+
+{
+    "firstName":"Jon", 
+    "lastName":"Smitty", 
+    "email":"Jsmith@test.com", 
+    "favoriteColor":"Brown", 
+    "birthday":"Jan 18"
+}
+
+### DELETE Local
+DELETE http://localhost:8080/contacts/6269af3e92184fa026d61aac
+
+
+
+
+
+
 
 // PRODUCTION Deploy 
-###
+### GET Production
 GET https://cse341api.herokuapp.com/contacts 
-###
-GET https://cse341api.herokuapp.com/contacts/622023f642f9ab4cd6e060b2 
-###
-GET https://cse341api.herokuapp.com/contacts/6261d04406c3187999c4556a 
-###
-GET https://cse341api.herokuapp.com/contacts/6261d04e06c3187999c4556b
+
+### POST Production
+POST https://cse341api.herokuapp.com/contacts HTTP/1.1 
+
+Content-Type: application/json
+{
+    "firstName":"Jon", 
+    "lastName":"smith 2.0", 
+    "email":"Jsmith@test.com", 
+    "favoriteColor":"Brown", 
+    "birthday":"Jan 18"
+}
+
+### GET one Production
+GET https://cse341api.herokuapp.com/contacts/626a161e75ffccc7ee7f6c37
+
+### PUT Production
+PUT https://cse341api.herokuapp.com/contacts/626a161e75ffccc7ee7f6c37
+Content-Type: application/json
+
+{
+    "firstName":"Jon", 
+    "lastName":"Smitty", 
+    "email":"Jsmith@test.com", 
+    "favoriteColor":"Brown", 
+    "birthday":"Jan 18"
+}
+
+### DELETE Production
+DELETE https://cse341api.herokuapp.com/contacts/6269af3e92184fa026d61aac
