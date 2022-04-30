@@ -39,6 +39,9 @@
                 "lastName": {
                   "example": "any"
                 },
+                "middleInitial": {
+                  "example": "any"
+                },
                 "email": {
                   "example": "any"
                 },
@@ -46,6 +49,12 @@
                   "example": "any"
                 },
                 "birthday": {
+                  "example": "any"
+                },
+                "phoneNumber": {
+                  "example": "any"
+                },
+                "leastFavoriteColor": {
                   "example": "any"
                 }
               }
@@ -103,6 +112,9 @@
                 "lastName": {
                   "example": "any"
                 },
+                "middleInitial": {
+                  "example": "any"
+                },
                 "email": {
                   "example": "any"
                 },
@@ -110,6 +122,12 @@
                   "example": "any"
                 },
                 "birthday": {
+                  "example": "any"
+                },
+                "phoneNumber": {
+                  "example": "any"
+                },
+                "leastFavoriteColor": {
                   "example": "any"
                 }
               }
