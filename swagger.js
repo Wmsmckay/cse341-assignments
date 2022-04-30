@@ -6,7 +6,7 @@ const doc = {
     description: 'Description'
   },
   host: 'cse341api.herokuapp.com',
-  schemes: ['http']
+  schemes: ['https']
 };
 
 const outputFile = './swagger.json';
