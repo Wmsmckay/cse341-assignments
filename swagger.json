@@ -5,7 +5,7 @@
     "description": "Description",
     "version": "1.0.0"
   },
-  "host": "https://cse341api.herokuapp.com/",
+  "host": "cse341api.herokuapp.com",
   "basePath": "/",
   "schemes": [
     "http"
